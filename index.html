@@ -24,7 +24,9 @@
         <div class="pure-u-1-3">
           <form class="pure-form">
             <fieldset>
-              <legend>Time travel to any date after January 4, 1917</legend>
+              <legend>
+                Time travel to (almost) any date after January 4, 1917
+              </legend>
               <select v-model="selectedDate.month">
                 <option v-for="month in possibleMonths" v-bind:value="month">
                   {{ month | wordifyMonth }}
