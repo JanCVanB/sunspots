@@ -10,9 +10,9 @@ var vm = new Vue({
     possibleMonths: _.range(1, 13),
     possibleYears: _.range(1917, 2017),
     selectedDate: {
-      day: 10,
-      month: 9,
-      year: 1992
+      day: 22,
+      month: 10,
+      year: 2014
     }
   },
   computed: {
