@@ -3,6 +3,7 @@ var vm = new Vue({
   el: '#app',
   data: {
     imageStyle: {
+      'max-width': '100%',
       width: '960px'
     },
     possibleDays: _.range(1, 32),
