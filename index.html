@@ -1,4 +1,6 @@
 <!DOCTYPE html>
 <div id="app">
-  <img src="ftp://howard.astro.ucla.edu/pub/obs/drawings/1992/dr920910.jpg"/>
+  <img v-bind:src="imageUrl" v-bind:style="imageStyle"/>
 </div>
+<script src="./vue.js"></script>
+<script src="./main.js"></script>
