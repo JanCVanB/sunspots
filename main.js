@@ -18,7 +18,8 @@ var vm = new Vue({
     imageUrl: function() {
       return (
         'ftp://howard.astro.ucla.edu/pub/obs/drawings/' +
-        this.selectedDate.year + '/dr' +
+        (this.selectedDate.year < 2014 ? (this.selectedDate.year + '/') : '') +
+        'dr' +
         twoDigitString(this.selectedDate.year) +
         twoDigitString(this.selectedDate.month) +
         twoDigitString(this.selectedDate.day) + '.jpg'
